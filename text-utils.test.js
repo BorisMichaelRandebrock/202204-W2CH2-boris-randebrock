@@ -1,10 +1,9 @@
 const strictEquals = (a, b) => {
   Object.is(a, b);
-if (a = NaN && b = NaN ) {
-  return false;
+  if (a === NaN && b === NaN) {
+    return false;
+  }
 };
-};
-
 
 describe("Given the strictEquals function", () => {
   describe("When it receives 1, 1", () => {
