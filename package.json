@@ -1,0 +1,31 @@
+{
+  "name": "challenge-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass sass/style.scss css/style.css -w",
+    "build-styles": "sass sass/style.scss css/style.css",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BorisMichaelRandebrock/202204-W2CH2-boris-randebrock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BorisMichaelRandebrock/202204-W2CH2-boris-randebrock/issues"
+  },
+  "homepage": "https://github.com/BorisMichaelRandebrock/202204-W2CH2-boris-randebrock#readme",
+  "devDependencies": {
+    "husky": "^7.0.0",
+    "jest": "^27.5.1",
+    "pre-commit": "^1.2.2",
+    "sass": "^1.50.0"
+  },
+  "dependencies": {
+    "@types/jest": "^27.4.1"
+  }
+}
